@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: vipinde/galactic-airlines-backend:k1
+          image: meghapawar/be.yaml:v1
           ports:
             - containerPort: 5000
           env:
